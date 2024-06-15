@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // commit 성공?
+import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
