@@ -8,7 +8,7 @@ function App() {
 
   const handleFileChange = (event) => {
     setSelectedFile(event.target.files[0]);
-  };
+  };  
 
   const handleFileRemove = () => {
     setSelectedFile(null);
