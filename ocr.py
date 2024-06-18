@@ -6,7 +6,7 @@ def ocr_process(image_path):
     try:
         print(f"Opening image: {image_path}")  # 파일 경로 출력
         image = Image.open(image_path)
-        text = pytesseract.image_to_string(image, lang='eng')
+        text = pytesseract.image_to_string(image, lang='kor')
         return text
     except Exception as e:
         return str(e)
